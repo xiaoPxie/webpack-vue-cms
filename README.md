@@ -17,3 +17,5 @@
   账号：admin
   密码：admin
 ```
+### 截图
+<img src="https://github.com/xiaoPxie/webpack-vue-cms/blob/master/%E7%A4%BA%E4%BE%8B/%E7%A4%BA%E4%BE%8B.png" alt="界面截图"/>
