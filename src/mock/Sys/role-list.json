@@ -1,0 +1,133 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "超级管理员",
+      "privilegeList": [
+        {
+          "privilegeId": "1",
+          "path": "",
+          "privilegeName": "系统管理"
+        },
+        {
+          "privilegeId": "2",
+          "path": "/sys/privilege/list",
+          "privilegeName": "权限管理"
+        },
+        {
+          "privilegeId": "3",
+          "path": "/sys/role/list",
+          "privilegeName": "角色管理"
+        },
+        {
+          "privilegeId": "4",
+          "path": "/sys/user/list",
+          "privilegeName": "用户管理"
+        },
+        {
+          "privilegeId": "5",
+          "path": "/sys/privilege/add",
+          "privilegeName": "添加"
+        },
+        {
+          "privilegeId": "6",
+          "path": "/sys/privilege/delete",
+          "privilegeName": "删除"
+        },
+        {
+          "privilegeId": "7",
+          "path": "/sys/role/add",
+          "privilegeName": "添加"
+        },
+        {
+          "privilegeId": "8",
+          "path": "/sys/role/delete",
+          "privilegeName": "删除"
+        },
+        {
+          "privilegeId": "9",
+          "path": "/sys/role/update",
+          "privilegeName": "编辑"
+        },
+        {
+          "privilegeId": "10",
+          "path": "/sys/user/add",
+          "privilegeName": "添加"
+        },
+        {
+          "privilegeId": "11",
+          "path": "/sys/user/delete",
+          "privilegeName": "删除"
+        },
+        {
+          "privilegeId": "12",
+          "path": "/sys/user/update",
+          "privilegeName": "编辑"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "普通管理员",
+      "privilegeList": [
+        {
+          "privilegeId": "1",
+          "path": "",
+          "privilegeName": "系统管理"
+        },
+        {
+          "privilegeId": "3",
+          "path": "/sys/role/list",
+          "privilegeName": "角色管理"
+        },
+        {
+          "privilegeId": "4",
+          "path": "/sys/user/list",
+          "privilegeName": "用户管理"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "开发人员",
+      "privilegeList": [
+        {
+          "privilegeId": "1",
+          "path": "",
+          "privilegeName": "系统管理"
+        },
+        {
+          "privilegeId": "2",
+          "path": "/sys/privilege/list",
+          "privilegeName": "权限管理"
+        },
+        {
+          "privilegeId": "3",
+          "path": "/sys/role/list",
+          "privilegeName": "角色管理"
+        },
+        {
+          "privilegeId": "4",
+          "path": "/sys/user/list",
+          "privilegeName": "用户管理"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "客服人员",
+      "privilegeList": [
+        {
+          "privilegeId": "1",
+          "path": "",
+          "privilegeName": "系统管理"
+        },
+        {
+          "privilegeId": "4",
+          "path": "/sys/user/list",
+          "privilegeName": "用户管理"
+        }
+      ]
+    }
+  ]
+}

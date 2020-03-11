@@ -1,0 +1,44 @@
+/* 滚动条组件 */
+.el-scrollbar { height: 100%; }
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+  margin-bottom: 0 !important;
+}
+//表格
+.data-table {
+  position: relative;
+  height: 100%;
+  padding: 54px 0 34px;
+  box-sizing: border-box;
+}
+.el-table { height: 100% !important; }
+.tool-bar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 10px 10px;
+  background: #fff;
+  box-sizing: border-box;
+  z-index: 10;
+  & > .search-box {
+    width: 200px;
+    margin: 0 10px;
+  }
+}
+// drawer
+.el-drawer__body {
+  position: relative;
+  padding: 5px;
+  overflow-y: auto;
+}
+.el-drawer__body > .drawer__footer {
+  text-align: center;
+}
+//.drawer__footer {
+//  position: absolute;
+//  bottom: 20px;
+//  left: 50%;
+//  transform: translateX(-50%);
+//}

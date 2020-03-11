@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "path": "",
+      "name": "系统管理",
+      "parentId": "",
+      "parentName": "",
+      "type": "1",
+      "icon": ""
+    },
+    {
+      "id": "2",
+      "path": "/sys/privilege/list",
+      "name": "权限管理",
+      "parentId": "1",
+      "parentName": "系统管理",
+      "type": "1",
+      "icon": ""
+    },
+    {
+      "id": "3",
+      "path": "/sys/role/list",
+      "name": "角色管理",
+      "parentId": "1",
+      "parentName": "系统管理",
+      "type": "1",
+      "icon": ""
+    },
+    {
+      "id": "4",
+      "path": "/sys/user/list",
+      "name": "用户管理",
+      "parentId": "1",
+      "parentName": "系统管理",
+      "type": "1",
+      "icon": ""
+    },
+    {
+      "id": "5",
+      "path": "/sys/privilege/add",
+      "name": "添加",
+      "parentId": "2",
+      "parentName": "权限管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "6",
+      "path": "/sys/privilege/delete",
+      "name": "删除",
+      "parentId": "2",
+      "parentName": "权限管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "7",
+      "path": "/sys/role/add",
+      "name": "添加",
+      "parentId": "3",
+      "parentName": "角色管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "8",
+      "path": "/sys/role/delete",
+      "name": "删除",
+      "parentId": "3",
+      "parentName": "角色管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "9",
+      "path": "/sys/role/update",
+      "name": "编辑",
+      "parentId": "3",
+      "parentName": "角色管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "10",
+      "path": "/sys/user/add",
+      "name": "添加",
+      "parentId": "4",
+      "parentName": "用户管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "11",
+      "path": "/sys/user/delete",
+      "name": "删除",
+      "parentId": "4",
+      "parentName": "用户管理",
+      "type": "2",
+      "icon": ""
+    },
+    {
+      "id": "12",
+      "path": "/sys/user/update",
+      "name": "编辑",
+      "parentId": "4",
+      "parentName": "用户管理",
+      "type": "2",
+      "icon": ""
+    }
+  ]
+}

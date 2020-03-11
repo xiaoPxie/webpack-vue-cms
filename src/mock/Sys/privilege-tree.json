@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "privilegeId": "-1",
+      "path": "",
+      "privilegeName": "根节点",
+      "type": "0",
+      "icon": "",
+      "children": [
+        {
+          "privilegeId": "1",
+          "path": "",
+          "privilegeName": "系统管理",
+          "type": "1",
+          "icon": "",
+          "children": [
+            {
+              "privilegeId": "2",
+              "path": "/sys/privilege/list",
+              "privilegeName": "权限管理",
+              "type": "1",
+              "icon": "",
+              "children": [
+                {
+                  "privilegeId": "5",
+                  "path": "/sys/privilege/add",
+                  "privilegeName": "添加",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                },
+                {
+                  "privilegeId": "6",
+                  "path": "/sys/privilege/delete",
+                  "privilegeName": "删除",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "privilegeId": "3",
+              "path": "/sys/role/list",
+              "privilegeName": "角色管理",
+              "type": "1",
+              "icon": "",
+              "children": [
+                {
+                  "privilegeId": "7",
+                  "path": "/sys/role/add",
+                  "privilegeName": "添加",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                },
+                {
+                  "privilegeId": "8",
+                  "path": "/sys/role/delete",
+                  "privilegeName": "删除",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                },
+                {
+                  "privilegeId": "9",
+                  "path": "/sys/role/update",
+                  "privilegeName": "编辑",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "privilegeId": "4",
+              "path": "/sys/user/list",
+              "privilegeName": "用户管理",
+              "type": "1",
+              "icon": "",
+              "children": [
+                {
+                  "privilegeId": "10",
+                  "path": "/sys/user/add",
+                  "privilegeName": "添加",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                },
+                {
+                  "privilegeId": "11",
+                  "path": "/sys/user/delete",
+                  "privilegeName": "删除",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                },
+                {
+                  "privilegeId": "12",
+                  "path": "/sys/user/update",
+                  "privilegeName": "编辑",
+                  "type": "2",
+                  "icon": "",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

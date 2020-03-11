@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "userName": "super_admin",
+      "nickName": "admin",
+      "password": "admin",
+      "roles": ["1"]
+    },
+    {
+      "id": "2",
+      "userName": "admin",
+      "nickName": "admin",
+      "password": "admin",
+      "roles": ["2","4"]
+    },
+    {
+      "id": "3",
+      "userName": "jishu",
+      "nickName": "jishu",
+      "password": "jishu",
+      "roles": ["1","2","3","4"]
+    },
+    {
+      "id": "4",
+      "userName": "kefu",
+      "nickName": "kefu",
+      "password": "kefu",
+      "roles": ["4"]
+    }
+  ]
+}
