@@ -17,5 +17,13 @@
   账号：admin
   密码：admin
 ```
+
+### 简单说明
+<strong>cms-demo中有常见的cms三个功能，分别是权限，角色，系统用户管理等等，简单说明如下： </strong><br>
+1、数据初始化使用json文件，初始化完成后存储到localstorage中；<br>
+2、页面数据请求通过axios发送，被mockjs拦截处理并返回处理结果；<br>
+3、系统采用了SPA模式，因此页面跳转都是通过vue-router配置；<br>
+4、同个用户可拥有不同的角色，页面中的权限都是通过角色进行配置和限制，无权限的页面和按钮会被隐藏掉，强制访问则显示404页面<br>
+
 ### 截图
 <img src="https://github.com/xiaoPxie/webpack-vue-cms/blob/master/%E7%A4%BA%E4%BE%8B/%E7%A4%BA%E4%BE%8B.png" alt="界面截图"/>
