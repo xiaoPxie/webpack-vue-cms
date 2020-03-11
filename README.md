@@ -30,3 +30,4 @@
 <img src="https://github.com/xiaoPxie/webpack-vue-cms/blob/master/%E7%A4%BA%E4%BE%8B/%E7%A4%BA%E4%BE%8B.png" alt="界面截图"/>
 <hr />
 普通管理角色下的截图：<Br>
+<img src="https://github.com/xiaoPxie/webpack-vue-cms/blob/master/%E7%A4%BA%E4%BE%8B/%E7%A4%BA%E4%BE%8B2.png" alt="界面截图2" />
