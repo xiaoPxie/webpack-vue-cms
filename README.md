@@ -26,4 +26,7 @@
 4、同个用户可拥有不同的角色，页面中的权限都是通过角色进行配置和限制，无权限的页面和按钮会被隐藏掉，强制访问则显示404页面<br>
 
 ### 截图
+超管下的截图：<Br>
 <img src="https://github.com/xiaoPxie/webpack-vue-cms/blob/master/%E7%A4%BA%E4%BE%8B/%E7%A4%BA%E4%BE%8B.png" alt="界面截图"/>
+<hr />
+普通管理角色下的截图：<Br>
